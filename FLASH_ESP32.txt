@@ -1,0 +1,35 @@
+================================================================
+ Tes-01 V3  -  How to load the test firmware into the XIAO ESP32-S3
+================================================================
+
+You only need ONE file:   TES01_V3_TESTER.bin
+
+Connect the board to the PC with a USB-C cable (XIAO USB port).
+
+
+OPTION A  -  Web flasher  (nothing to install, recommended)
+------------------------------------------------------------
+ 1. Open Google Chrome or Microsoft Edge.
+ 2. Go to:   https://espressif.github.io/esptool-js/
+ 3. Click "Connect" and choose the XIAO serial port.
+ 4. Set:  Flash Address = 0x0 ,  File = TES01_V3_TESTER.bin
+ 5. Click "Program".  Wait for "Done".
+ 6. Unplug/replug. The board opens Wi-Fi AP  TES01-V3-TEST
+    (password 12345678). Browse to  http://192.168.4.1
+
+
+OPTION B  -  Local script  (offline, needs esptool)
+------------------------------------------------------------
+ 1. Install esptool once:   pip install esptool
+    (or place a standalone esptool.exe next to these files).
+ 2. Double-click  FLASH_ESP32.bat  , or run:
+        FLASH_ESP32.bat COM7
+    (replace COM7 with the board's port).
+
+
+If flashing fails: put the board in download mode -
+   hold BOOT, tap RESET, release BOOT, then flash again.
+
+Nothing here connects to the internet during use; the Wi-Fi
+is a local access point only.
+================================================================
