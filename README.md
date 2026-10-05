@@ -61,6 +61,12 @@ The WiFi is a **local access point only** — nothing here connects to the inter
 More images (connector overlay, and connection / bench-termination guides in CZ / PL / HU)
 are in [`img/`](img/).
 
+## Custom development
+
+We develop **custom firmware and applications for STM32** (and ESP32, and other embedded
+platforms) — CAN / automotive gateways, IoT devices, bespoke PCBs and one-off projects.
+Need firmware written, a board brought up, or a feature added? Get in touch.
+
 ## Contact
 
 **dvbexpert s.r.o.** — jarda189@gmail.com
