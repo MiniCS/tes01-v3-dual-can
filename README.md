@@ -50,6 +50,21 @@ about **60 Ω** across CANH–CANL.
 
 The WiFi is a **local access point only** — nothing here connects to the internet.
 
+## Documentation & images
+
+- **Datasheet:** [`Tes01_datasheet_EN.pdf`](Tes01_datasheet_EN.pdf)
+- **Connector pinout:** ![Connection guide](img/connection_guide.png)
+- **Bench CAN self-test wiring (120 Ω terminator):** ![Bench termination](img/bench_termination_EN.png)
+- **Board dimensions:** ![Dimensions](img/dimensions.png)
+- **Schematic:** ![Schematic](img/schematic.png)
+
+More images (connector overlay, and connection / bench-termination guides in CZ / PL / HU)
+are in [`img/`](img/).
+
+## Contact
+
+**dvbexpert s.r.o.** — jarda189@gmail.com
+
 ## License
 
 MIT — see `LICENSE`.
